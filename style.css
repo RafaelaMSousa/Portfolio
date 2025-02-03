@@ -1,0 +1,244 @@
+/*
+#########################################################################
+####                                                                 ####
+####                          FONT FACES                             ####
+####                                                                 ####
+#########################################################################
+*/
+
+@font-face {
+  font-family: museu500;
+  src: url(assets/font/Museo_Slab_500.otf);
+}
+
+@font-face {
+  font-family: museu300;
+  src: url(assets/font/Museo_Slab_300.otf);
+}
+
+@font-face {
+  font-family: museu100;
+  src: url(assets/font/Museo_Slab_100.otf);
+}
+
+@font-face {
+  font-family: qsregular;
+  src: url(assets/font/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: qslight;
+  src: url(assets/font/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: qsmedium;
+  src: url(assets/font/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: qssemibold;
+  src: url(assets/font/Quicksand-SemiBold.ttf);
+}
+
+/*
+#########################################################################
+####                                                                 ####
+####                             WORK                                ####
+####                                                                 ####
+#########################################################################
+*/ 
+
+
+.fixed-image {
+    width: 100%; 
+    height: 220px; 
+    object-fit: cover;
+  }
+  .no-border {
+    border: none !important; 
+}
+.no-corner {
+  border-radius: 0px !important; 
+}
+.subtitulo{
+  font-family: museu500;
+  font-size: 25px;
+  color: rgb(97, 97, 97);
+}
+
+.nav{
+  font-family: museu300;
+  font-size: 40px;
+}
+.nav a{
+  color: rgb(185, 185, 185);
+}
+.nav a:hover{
+  color: rgb(117, 117, 117);
+}
+.navbar-nav .nav-link.active {
+  color: rgb(74, 74, 74) !important;
+}
+
+.titulo{
+  font-family: qssemibold;
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+}
+
+.titulo2{
+  font-family: qslight;
+  font-size: 40px;
+  color: #4b4b4b;
+}
+
+.texto{
+  font-family: qsregular;
+  font-size: 15px;
+  color: rgb(167, 167, 167);
+}
+
+.nav-bgcolor{
+  background-color: rgba(137, 170, 94, 0.089);
+}
+
+.button {
+  font-family: qsregular;
+  background-color: rgb(27, 27, 27);
+} 
+
+.btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #171f27;
+  --bs-btn-border-color: rgb(27, 27, 27);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(110, 110, 110);
+  --bs-btn-hover-border-color: rgb(110, 110, 110)
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+#########################################################################
+####                                                                 ####
+####                            CONTACT                              ####
+####                                                                 ####
+#########################################################################
+*/
+
+.titulocontact{
+  font-family: museu300;
+  font-size: 45px;
+  color: rgb(109, 109, 109);
+}
+
+.label-contact {
+font-family: qsmedium;
+color: rgb(109, 109, 109);
+}
+
+.input-contact {
+  font-family: qslight;
+}
+
+.input-contact::placeholder {
+  color: rgb(209, 209, 209);
+}
+
+.form-control:focus {
+  border-color: #e7e7e7;
+  box-shadow: 0 0 0 .25rem rgba(219, 219, 219, 0.205);
+}
+
+.text-contact {
+  font-family: qsmedium;
+}
+
+.text-contact::placeholder {
+  color: rgb(209, 209, 209);
+}
+
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+/* .fa:hover {
+    opacity: 0.7;
+} */
+
+.fa-envelope {
+  background: rgb(236, 236, 236, 0.842);
+  color: rgb(27, 27, 27);
+
+}
+
+.fa-linkedin {
+  background: rgba(236, 236, 236, 0.842);
+  color: rgb(27, 27, 27);
+}
+
+.fa-phone {
+  background: rgba(236, 236, 236, 0.842);
+  color: rgb(27, 27, 27);
+}
+
+/*
+#########################################################################
+####                                                                 ####
+####                           About Me                              ####
+####                                                                 ####
+#########################################################################
+*/
+
+.traco{
+  border-bottom: #171f2718 solid;
+  border-width: 1px;
+  padding-bottom: 20px;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+
+/*
+#########################################################################
+####                                                                 ####
+####                            Hakata                               ####
+####                                                                 ####
+#########################################################################
+*/
+
+iframe {
+  width: 900px !important;
+  height: 500px !important;
+}
+
+/* .imgwork {
+  height: 600px;
+  width: 700px;
+  padding-bottom: 20px;
+} */
+
+.top {
+font-family: qslight;
+font-size: 20px;
+color: rgb(209, 209, 209);
+
+}
