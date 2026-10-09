@@ -242,3 +242,51 @@ font-size: 20px;
 color: rgb(209, 209, 209);
 
 }
+
+/*
+#########################################################################
+####                                                                 ####
+####                          CAROUSEL                               ####
+####                                                                 ####
+#########################################################################
+*/
+
+.momiji-carousel {
+  padding-bottom: 45px; /* room for the indicators below the image */
+}
+
+.momiji-carousel .carousel-indicators {
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.momiji-carousel .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(185, 185, 185);
+  opacity: 1;
+}
+
+.momiji-carousel .carousel-indicators .active {
+  background-color: rgb(74, 74, 74);
+}
+
+/* soft grey arrows instead of the default white ones */
+.momiji-carousel .carousel-control-prev,
+.momiji-carousel .carousel-control-next {
+  width: 8%;
+  bottom: 45px;
+  opacity: 0.8;
+}
+
+.momiji-carousel .carousel-control-prev-icon,
+.momiji-carousel .carousel-control-next-icon {
+  filter: invert(1) grayscale(1) brightness(0.45);
+}
+
+/* slower, smoother crossfade */
+.momiji-carousel.carousel-fade .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
